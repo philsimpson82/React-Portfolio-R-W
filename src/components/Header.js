@@ -9,7 +9,7 @@ const Header = () => {
         <Navbar dark color='success' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
                 <img src={RandWLogo} alt='restandwellness logo' className='float-start' />
-                <h1 className='mt-1'>Rest & Wellness</h1>
+                {/*<h1 className='mt-3'>Rest & Wellness</h1> */}
             </NavbarBrand>
             <NavbarToggler onClick={() => setNavbarOpen(!navbarOpen)} />
             <Collapse isOpen={navbarOpen} navbar>
