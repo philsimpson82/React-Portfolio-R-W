@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { Nav, Collapse, Navbar, NavbarBrand, NavbarToggler, NavItem } from "reactstrap";
 import { NavLink } from "react-router-dom";
-//import RandW Logo;
+import RandWLogo from '../app/assets/img/logo_icon_rest_wellness.jpg';
 
 const Header = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
         <Navbar dark color='success' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
-                <img src='' alt='restandwellness logo' className='float-start' />
+                <img src={RandWLogo} alt='restandwellness logo' className='float-start' />
                 <h1 className='mt-1'>Rest & Wellness</h1>
             </NavbarBrand>
             <NavbarToggler onClick={() => setNavbarOpen(!navbarOpen)} />

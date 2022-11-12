@@ -37,3 +37,132 @@
     transform: translateY(0px);
   }
 }
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lobster", cursive;
+}
+
+
+#navbar-h2 {
+  color: white;
+}
+
+h2,
+header h2 {
+  color: black;
+}
+
+.site-footer {
+  background-image: linear-gradient(rgb(5, 148, 148), rgb(5, 160, 160), white);
+  padding: 20px 0;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, aquamarine, rgb(13, 206, 206), rgb(5, 138, 138));
+}
+
+#jumbotron_h1,
+#jumbotron_h2 {
+  color: white;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar {
+  background-color: rgb(8, 126, 126);
+}
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+  border: solid #5637DD;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 500px;
+  height: 400px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 500px;
+  height: 400px;
+}
+
+.gmap_iframe {
+  width: 500px !important;
+  height: 400px !important;
+}
+
+.btn-create,
+.btn-signin,
+.btn-select,
+.btn-review,
+.btn-confirm,
+.btn-book-now {
+  background-color: rgb(8, 126, 126);
+  color: white;
+}
+
+.btn-link {
+  color: black;
+}
+
+.breadcrumb_home {
+  color: rgb(8, 126, 126);
+}
+
+.link_list {
+  color: black;
+}
+
+#purchaseModal .modal-header,
+#loginModal .modal-header,
+#signupModal .modal-header,
+#bookingModal .modal-header {
+  background-color: rgb(8, 126, 126);
+  color: white;
+}
+
+#purchaseModal .modal-body,
+#loginModal .modal-body,
+#signupModal .modal-body,
+#bookingModal .modal-body {
+  background-color: beige;
+}
+
+#indexContainer,
+#aboutContainer,
+#servicesContainer,
+#contactContainer {
+  background-color: beige;
+}
+
+.myborder {
+  border-bottom-width: 1px;
+  border-bottom-style: ridge;
+  border-bottom-color: lightgray;
+}

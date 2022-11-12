@@ -13,13 +13,13 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='services' element={<ServicesPage />} />
         <Route path='gifts' element={<GiftsPage />} />
         <Route path='about' element={<AboutPage />} />
         <Route path='contact' element={<ContactPage />} />
-      </Routes>
+      </Routes> */}
       <Footer />
     </div>
   );
